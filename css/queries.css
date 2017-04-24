@@ -1,0 +1,54 @@
+/* Inserta tu código de la página contacto acá */
+@media screen and (max-width:768px) {  
+	.ultimas-noticias .descripcion {
+		float: left;
+	}
+	.row-noticias .photo{
+    float: none;
+	}
+	footer {
+		background-color: #1a1a1a;
+    	padding: 15px 0;
+    	color: #fff;
+    	text-align: center;	
+		}
+	.mobile-footer h4{
+	    font-family: "Open Sans","Helvetica",Arial,sans-serif;
+	    }
+	.mobile-footer p{
+	    font-size: 1.2rem;
+	    }
+    col-1,col-2,col-3,col-4,col-5,col-6,col-7,col-8 {
+        width: auto;
+    }
+    .uno {
+        margin-top: -5%;
+        text-align: center;
+    }
+    .info-fecha {
+        margin-top: 10%;
+        text-align: center;
+    }
+    .caja-editorial {
+        text-align: center;
+    }
+    .caja-editorial p {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .grey2 {
+        margin-bottom: 0;
+    }
+    .ct-dos {
+        margin-top: 3%;
+    }
+@media screen and (max-width:940px) {  
+	.display-table-col{
+		top:-190px;
+	    float: right;
+		}
+    .noticias-destacadas .banner{
+        display: none;
+    }
+    
+}

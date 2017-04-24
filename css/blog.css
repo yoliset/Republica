@@ -1,0 +1,40 @@
+.blogs{
+	font-family: "PT Sans";
+}
+.blogs h4{
+	display: inline-block;
+}
+
+/*Caja*/
+.box{
+	padding: 1%;
+}
+
+/*Borde*/
+.border-gray{
+    margin-bottom: 2%;
+	padding: 14% 3% 6%;
+	text-align: center;
+    border:2px solid #EFEFEF;
+    padding: 2%;
+
+}
+.border-gray h4{
+	font-size: 1em;
+}
+.border-gray h3{
+    margin: 14px 0 20px 0;
+	font-size: 1.5em;
+}
+
+/*BOXGRAY*/
+.boxgray{
+    text-align: left;
+	padding: 4% 0;
+	background-color: #EFEFEF;
+	margin: auto;
+}
+.boxgray h5{
+    margin-bottom: 4px;
+	margin-top: 2px;
+}

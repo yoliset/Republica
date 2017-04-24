@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blog</title>
+	<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+  	<link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+  	<link rel="stylesheet" href="css/queries.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
+</head>
+	<body>
+	
+	<header>
+        <div class="container">
+    <!---------BANNER-1-------->
+            <a href="#"><img class="img-responsive center-block hidden-xs hidden-md" src="image/banner_top.jpg" alt="anuncio"></a> 
+    <!---------ENCABEZADO Y NAVEGACIÓN-------->
+            <div class="row navegacion">
+                <div class="col-md-8 col-xs-16">
+                   <ul class="lista-diarios list-inline">
+                       <li><a href="#">LIBERO.PE</a></li>
+                       <li><a href="#">ELPOPULAR.PE</a></li>
+                       <li><a href="#">FUNDACIÓN GUSTAVO MOHME LLONA </a></li>
+                   </ul>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                   <a href="http://larepublica.pe/boletin" target="_blank"><button class="btn btn-boletin">SUSCRÍBETE AL BOLETÍN</button></a> 
+                </div>   
+                <div class="col-md-3 col-xs-6">
+                   <ul class="lista-redes list-inline">
+                       <li><a href=""><icon class="fa fa-facebook-f fb"></icon></a></li>
+                       <li><a href=""><icon class="fa fa-twitter tw"></icon></a></li>
+                       <li><a href=""><icon class="fa fa-google goo"></icon></a></li>
+                       <li><a href=""><icon class="fa fa-envelope ma"></icon></a></li>
+                       <li><a href=""><icon class="fa fa-rss rss"></icon></a></li>
+                   </ul>
+                    
+                </div>
+                <div class="col-md-2 col-xs-4">
+                   <div class="search">
+                            <input size="8" class="buscar" type="text" placeholder="BUSCAR">
+                            <i class="fa fa-search lupa"></i>
+                   </div>
+                </div>
+            </div>
+       
+        </div>
+    </header>  
+     
+<!-------------------------------------------------------------------------------------------------------LOGO-EDITORIAL-----------> 
+    <section class="editorial">
+         <div class="container">
+             <div class="row">
+                <div class="col-md-5 col-xs-16 uno">
+                    <img class="img-responsive rep" src="image/logo-la-republica.jpg" alt="La Republica">                
+                </div>  
+                <div class="col-md-6 col-xs-16 info-fecha">
+                    <p class="fecha">DOMINGO</p>
+                    <b>HABLA LA LIDERESA DEL NACIONALISMO</b> 
+                </div>   
+                <div class="col-md-5 col-xs-16 caja-editorial">
+                   <div class="fondo">
+                      <img class="img-editorial" src="image/img_editorial_text.jpg" alt="Editorial">
+                      <p><b>La corrupción, los orígenes</b> <br><italic>por:Gustavo Mohme Llona</italic></p>
+                      <img class="img-autor" src="image/img_author.jpg" alt="Autor">    
+                   </div>   
+                </div>
+            </div>        
+          </div>                 
+    </section>
+    
+<!-------------------------------------------------------------------------------------------------------SECCIONES---------------->  
+    <section class="secciones"> 
+         <div class="container">
+             <div class="text-right visible-xs">
+                 <button class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation">Menú</button>
+             </div>
+             <nav class="hidden-xs">
+                 <ul class="desktop-menu list-inline text-right">
+				     <li><a href="#">POLÍTICA</a></li>
+					 <li><a href="#">ECONOMÍA</a></li>
+                     <li><a href="#">SOCIEDAD</a></li>
+					 <li><a href="#">ELECC.REGIONALES</a></li>
+					 <li><a href="#">DEPORTES</a></li>
+					 <li><a href="#">CHAMPIONS L.</a></li>
+					 <li><a href="#">ESPECTÁCULOS</a></li>
+					 <li><a href="#">ED. IMPRESA</a></li>
+					 <li><a href="#">REGIONALES</a></li>
+					 <li><a href="#">MÁS SECCIONES</a></li>
+                 </ul>
+             </nav>
+             <nav class="visible-xs">
+                 <div id="main-navigation" class="collapse">
+				     <ul  class="mobile-menu text-right">
+				         <li><a href="#">POLÍTICA</a></li>
+                         <li><a href="#">ECONOMÍA</a></li>
+                         <li><a href="#">SOCIEDAD</a></li>
+                         <li><a href="#">ELECC.REGIONALES</a></li>
+                         <li><a href="#">DEPORTES</a></li>
+                         <li><a href="#">CHAMPIONS L.</a></li>
+                         <li><a href="#">ESPECTÁCULOS</a></li>
+                         <li><a href="#">ED. IMPRESA</a></li>
+                         <li><a href="#">REGIONALES</a></li>
+                         <li><a href="#">MÁS SECCIONES</a></li>
+				     </ul>
+				</div>
+             </nav>
+         </div>
+    </section>   
+<!-------------------------------------------------------------------------------------------------------TEMAS-DEL-DÍA------------>      
+    <section class="temas-del-dia">
+         <div class="container">
+             <div class="row grey2">
+                <div class="col-md-2 black">
+                   <p><b>TEMAS DEL DÍA</b></p>
+                </div>
+                <div class="col-md-12 col-md-offset-1 grey">
+                   <ul class="temas-dia autoplay list-inline">
+                       <li>Redes sociales</li>
+                       <li>Congreso del Perú</li>
+                       <li>Jaime Saavedra</li>
+                       <li>Arequipa</li>
+                       <li>PPK</li>
+                       <li>Youtube</li>
+                       <li>Fujimorismo</li>
+                       <li>Fútbol Peruano</li>
+                       <li>Ministerio de Educación</li>
+                       <li>Cultura Popular</li>
+                       <li>Descentralizado 2016</li>
+                       <li>Fuerza Popular</li>
+                       <li>Melgar</li>
+                       <li>Navidad</li>
+                       <li>Poder Ejecutivo</li>
+                   </ul>
+                </div>
+             </div>             
+         </div>                 
+    </section>
+<!-------------------------------------------------------------------------------------------------------BANNER-2------------------>
+   <section>
+     <div class="container">
+         <a href="#"><img class="img-responsive center-block hidden-xs hidden-md" src="image/banner-header.jpg" alt="anuncio"></a> 
+     </div>       
+   </section>
+  
+<!-------------------------------------------------------------------------------------------------------BLOG------------------>    
+   
+		<section>
+			<div class="container">
+				<div class="blogs">
+					<h2>Blogs</h2>
+					<h4>LO ULTIMO EN BLOGS</h4>
+					<img src="image/double-arrow-bottom.png">
+					<div class="row box">
+		  			<div class="col-lg-4 col-sm-6 col-xs-16">
+		  					<div class="border-gray">
+			        		<h4>Lunes 14 de Julio del 2015</h4>
+			        		<h3>El gol de la muerte</h3>
+			    				<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_01.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>LIBROS</p>
+			    					</div>
+			    				</div>
+			    			</div>
+		    		</div>
+		    		<div class="col-lg-4 col-sm-6 col-xs-16">
+		  					<div class="border-gray">
+			        		<h4>Lunes 14 de Julio del 2015</h4>
+			        		<h3>El gol de la muerte</h3>
+			    				<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_02.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>Novelas</p>
+			    					</div>
+			    				</div>
+			    			</div>
+		    		</div>
+		  			<div class="col-lg-4 col-sm-6 col-xs-16">
+		  					<div class="border-gray">
+			        		<h4>Lunes 14 de Julio del 2015</h4>
+			        		<h3>¿Cual es tu favorito?</h3>
+			    				<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_03.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>Décimas cosas</p>
+			    					</div>
+			    				</div>
+			    			</div>
+		    		</div>
+		    		<div class="col-lg-4 col-sm-6 col-xs-16">
+		  					<div class="border-gray">
+			        		<h4>Lunes 14 de Julio del 2015</h4>
+			        		<h3>El gol de la muerte</h3>
+			    				<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_01.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>LIBROS</p>
+			    					</div>
+			    				</div>
+			    			</div>
+		    		</div>
+	    		</div>
+	    		<div class="row box">
+		    		<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>Manos llenas...</h3>
+			    			<div class="row boxgray">
+			    				<div class="col-lg-6 col-xs-4">
+			    					<img src="image/blog_avatar_02.jpg" class="img-thumbnail">
+			    				</div>
+			    				<div class="col-lg-10 col-xs-12">
+			    					<h5>BLOG</h5>
+			        			<p>Novelas</p>
+			    				</div>
+			    			</div>
+			    		</div>
+		    		</div>
+						<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>¿Cual es tu favorito?</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_03.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>Décimas cosas</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+		  			<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>El gol de la muerte</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_01.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>LIBROS</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+		    		<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>Manos llenas...</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_02.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>Novelas</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+	    		</div>
+	    		<div class="row box">
+	    			<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>¿Cual es tu favorito?</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_03.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>Décimas cosas</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+		    		<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>El gol de la muerte</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_01.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>LIBROS</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+		    		<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>Manos llenas...</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_02.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>Novelas</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+		    		<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>¿Cual es tu favorito?</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_03.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>Décimas cosas</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+	    		</div>
+	    		<div class="row box">
+	    			<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>El gol de la muerte</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_01.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>LIBROS</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+		    		<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>Manos llenas...</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_02.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>Novelas</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+		    		<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>¿Cual es tu favorito?</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_03.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>Décimas cosas</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+	    			<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>El gol de la muerte</h3>
+			    			<div class="row boxgray">
+			    					<div class="col-lg-6 col-xs-4">
+			    						<img src="image/blog_avatar_01.jpg" class="img-thumbnail">
+			    					</div>
+			    					<div class="col-lg-10 col-xs-12">
+			    						<h5>BLOG</h5>
+			        				<p>LIBROS</p>
+			    					</div>
+			    			</div>
+			    		</div>
+		    		</div>
+	    		</div>
+	    		<div class="row box">
+	    			<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>Manos llenas...</h3>
+			    			<div class="row boxgray">
+			    				<div class="col-lg-6 col-xs-4">
+			    					<img src="image/blog_avatar_02.jpg" class="img-thumbnail">
+			    				</div>
+			    				<div class="col-lg-10 col-xs-12">
+			    					<h5>BLOG</h5>
+			        			<p>Novelas</p>
+			    				</div>
+			    			</div>
+			    		</div>
+		    		</div>
+		    		<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>¿Cual es tu favorito?</h3>
+			    			<div class="row boxgray">
+			    				<div class="col-lg-6 col-xs-4">
+			    					<img src="image/blog_avatar_03.jpg" class="img-thumbnail">
+			    				</div>
+			    				<div class="col-lg-10 col-xs-12">
+			    					<h5>BLOG</h5>
+			        			<p>Décimas cosas</p>
+			    				</div>
+			    			</div>
+			    		</div>
+		    		</div>
+	    			<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>El gol de la muerte</h3>
+			    			<div class="row boxgray">
+			    				<div class="col-lg-6 col-xs-4">
+			    					<img src="image/blog_avatar_01.jpg" class="img-thumbnail">
+			    				</div>
+			    				<div class="col-lg-10 col-xs-12">
+			    					<h5>BLOG</h5>
+			        			<p>LIBROS</p>
+			    				</div>
+			    			</div>
+			    		</div>
+		    		</div>
+	    			<div class="col-lg-4 col-sm-6 col-xs-16">
+		  				<div class="border-gray">
+			        	<h4>Lunes 14 de Julio del 2015</h4>
+			        	<h3>Manos llenas...</h3>
+			    			<div class="row boxgray">
+			    				<div class="col-lg-6 col-xs-4">
+			    					<img src="image/blog_avatar_02.jpg" class="img-thumbnail">
+			    				</div>
+			    				<div class="col-lg-10 col-xs-12">
+			    					<h5>BLOG</h5>
+			        			<p>Novelas</p>
+			    				</div>
+			    			</div>
+			    		</div>
+		    		</div>
+	    		</div>
+	  		</div>
+			</div>
+		</section>
+      <footer>
+		<div class="first-container">	
+    <!---------DIRECCIÓN-------->
+    		<div class="container-fluid">
+				<div class="mobile-footer visible-xs">
+					<h4 id="organization">Grupo La República Digital</h4>
+					<p class="copyright">Todos los derechos reservados - 2015</p>
+				</div>
+			</div>	
+			<div class="hidden-xs">
+				<div class="container">
+					<div class="row">
+						<div class="logo-col col-md-5 footer-info">
+							<img src="image/logo-grupo-la-republica.png" alt="Logotipo: Grupo La República" class="img-responsive">
+							<ul class="list-unstyled">
+								<li>
+									<h4>Grupo La República Digital</h4>
+								</li>
+								<li>
+									<span>Jr. Camaná 320 Cercado de Lima</span>
+								</li>
+								<li>
+									<span>Telefóno: 711-6000</span>
+								</li>
+								<li>
+									<p>(Central Telefónica)</p>
+								</li>
+								<li>
+									<small>Todos los derechos reservados - 2015</small>
+								</li>
+							</ul>
+						</div>
+						
+	    <!---------ENLACES NOTICIAS-------->
+						<div class="menu-col col-md-11 display-table-col">
+							<ul class="col-md-4 list-unstyled">
+								<li><a class="tags" href="#"><span>Roger Federer</span></a></li>
+								<li><a class="tags" href="#"><span>SBS</span></a></li>
+								<li><a class="tags" href="#"><span>Scarlett  Johansson</span></a></li>
+								<li><a class="tags" href="#"><span>Scotiabank</span></a></li>
+								<li><a class="tags" href="#"><span>Roger Federer</span></a></li>
+								<li><a class="tags" href="#"><span>Selena Goméz</span></a></li>
+								<li><a class="tags" href="#"><span>Spiderman</span></a></li>
+								<li><a class="tags" href="#"><span>Sporting Cristal</span></a></li>
+								<li><a class="tags" href="#"><span>Sunat</span></a></li>
+								<li><a class="tags" href="#"><span>Telefónica del Perú</span></a></li>
+								<li><a class="tags" href="#"><span>The Walking Dead</span></a></li>
+								<li><a class="tags" href="#"><span>Twitter</span></a></li>
+								<li><a class="tags" href="#"><span>Universidad Cesar Vallejo</span></a></li>
+								<li><a class="tags" href="#"><span>Universidad San Martin</span></a></li>
+								<li><a class="tags" href="#"><span>Universitario de Deportes</span></a></li>
+								<li><a class="tags" href="#"><span>Xbox</span></a></li>
+								<li><a class="tags" href="#"><span>Youtube</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>BBVA</span></a></li>
+								<li><a class="tags" href="#"><span>Xbox</span></a></li>
+								<li><a class="tags" href="#"><span>BCP</span></a></li>
+							</ul>
+							<ul class="col-md-4 list-unstyled">
+								<li><a class="tags" href="#"><span>Al fondo hay sitio</span></a></li>
+								<li><a class="tags" href="#"><span>Alejando Toledo</span></a></li>
+								<li><a class="tags" href="#"><span>Alianza Lima</span></a></li>
+								<li><a class="tags" href="#"><span>Alianza Lima</span></a></li>
+								<li><a class="tags" href="#"><span>Banco de la Naciòn</span></a></li>
+								<li><a class="tags" href="#"><span>Barack Obama</span></a></li>
+								<li><a class="tags" href="#"><span>Universidad Cesar Vallejo</span></a></li>
+								<li><a class="tags" href="#"><span>Universidad San Martin</span></a></li>
+								<li><a class="tags" href="#"><span>Barcelona</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>BBVA</span></a></li>
+								<li><a class="tags" href="#"><span>Xbox</span></a></li>
+								<li><a class="tags" href="#"><span>Batman</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>BBVA</span></a></li>
+								<li><a class="tags" href="#"><span>Xbox</span></a></li>
+								<li><a class="tags" href="#"><span>BCP</span></a></li>
+							</ul>
+							<ul class="col-md-4 list-unstyled">
+								<li><a class="tags" href="#"><span>One Direction</span></a></li>
+								<li><a class="tags" href="#"><span>ONPE</span></a></li>
+								<li><a class="tags" href="#"><span>Pablo Escobar</span></a></li>
+								<li><a class="tags" href="#"><span>Paolo Guerrero</span></a></li>
+								<li><a class="tags" href="#"><span>Pensión 65</span></a></li>
+								<li><a class="tags" href="#"><span>PNP</span></a></li>
+								<li><a class="tags" href="#"><span>Precio del dólar</span></a></li>
+								<li><a class="tags" href="#"><span>Universidad Cesar Vallejo</span></a></li>
+								<li><a class="tags" href="#"><span>Universidad San Martin</span></a></li>
+								<li><a class="tags" href="#"><span>Premier League</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>BBVA</span></a></li>
+								<li><a class="tags" href="#"><span>Xbox</span></a></li>
+								<li><a class="tags" href="#"><span>BCP</span></a></li>
+								<li><a class="tags" href="#"><span>Proyecto Conga</span></a></li>
+								<li><a class="tags" href="#"><span>PUCP</span></a></li>
+								<li><a class="tags" href="#"><span>Real Madrid</span></a></li>
+								<li><a class="tags" href="#"><span>Redes Sociales</span></a></li>
+								<li><a class="tags" href="#"><span>Reniec</span></a></li>
+								<li><a class="tags" href="#"><span>Robert Pattinson</span></a></li>
+							</ul>
+							<ul class="col-md-4 list-unstyled">
+								<li><a class="tags" href="#"><span>Al fondo hay sitio</span></a></li>
+								<li><a class="tags" href="#"><span>Alejando Toledo</span></a></li>
+								<li><a class="tags" href="#"><span>Alianza Lima</span></a></li>
+								<li><a class="tags" href="#"><span>Alianza Lima</span></a></li>
+								<li><a class="tags" href="#"><span>Banco de la Naciòn</span></a></li>
+								<li><a class="tags" href="#"><span>Barack Obama</span></a></li>
+								<li><a class="tags" href="#"><span>Universidad Cesar Vallejo</span></a></li>
+								<li><a class="tags" href="#"><span>Universidad San Martin</span></a></li>
+								<li><a class="tags" href="#"><span>Barcelona</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>BBVA</span></a></li>
+								<li><a class="tags" href="#"><span>Xbox</span></a></li>
+								<li><a class="tags" href="#"><span>Batman</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>Bayern Munich</span></a></li>
+								<li><a class="tags" href="#"><span>BBVA</span></a></li>
+								<li><a class="tags" href="#"><span>Xbox</span></a></li>
+								<li><a class="tags" href="#"><span>BCP</span></a></li>
+							</ul>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="hidden-xs">
+	
+	<!---------ENLACES-DIARIOS-------->
+		<div class="second-container hidden-xs">
+			<div class="container">
+				<div class="row">
+					<ul class="list-inline list-row">
+						<li class="item item-title">Diarios del PAL:</li>
+						<li><a target="_blank" href="http://www.clarin.com">Clarín</a></li>
+						<li><a target="_blank" href="http://latercera.com">La Tercera</a></li>
+						<li><a target="_blank" href="http://www.eluniversal.com.co">El Universal Colombia</a></li>
+						<li><a target="_blank" href="http://www.eluniversal.com">El Universal Venezuela</a></li>
+						<li><a target="_blank" href="http://www.vanguardia.com">Vanguardia</a></li>
+						<li><a target="_blank" href="http://www.laprensa.hn">La Prensa</a></li>
+						<li><a target="_blank" href="http://www.elsalvador.com">El Salvador</a></li>
+						<li><a target="_blank" href="http://www.laverdad.com">La Verdad</a></li>
+						<li><a target="_blank" href="http://www.diariolibre.com">Diario Libre</a></li>
+						<li><a target="_blank" href="http://www.hoy.com.ec">El diario de hoy</a></li>
+						<li><a target="_blank" href="http://www.elcolombiano.com">El Colombiano</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>						
+	</footer>
+       
+
+	   <script type="text/javascript" src="js/jquery.js"></script>
+       <script type="text/javascript" src="slick/slick.min.js"></script>
+       <script type="text/javascript" src="js/slick.js"></script>
+       <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</body>
+</html>

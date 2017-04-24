@@ -1,0 +1,422 @@
+/* Inserta tu código de la página home/index acá */
+
+/* -----------------------------------------------------------------TITULAR-------------- */
+.icon-container {
+    padding: 0 0 2.5% 0;
+}
+.underline h1 {
+    font-size: 52px;
+}
+.titulo {
+    width: 100%;
+    display:table;
+}
+.titulito {
+    display:table-cell;
+}
+.underline:hover {
+    text-decoration: none;
+}
+.text-black {
+    color:#000;
+    font-weight: bold;
+}
+.caja-t {
+    position: relative;
+    padding: 0 5% 5% 5%;
+    color:#fff !important;
+}
+.caja-t b {
+     color:#fff !important;
+}
+.caja-t p {
+    position: absolute;
+    left: 10px;
+    bottom: 35px;
+    width: 100%;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px black;
+}
+.ct-icon {
+    position: absolute;
+    left:10px;
+    bottom: 15px;
+    width: 100%;  
+}
+.ct-icon .icon-s {
+    margin-right: 1%;
+}
+.ct-uno {
+    background: url(../image/img_grid_principal.jpg)center center;
+    background-size: cover;
+    padding: 52% 0 ;
+    box-shadow: inset 30px -90px 100px 10px rgba(0, 0, 0, 0.5);
+}
+.ct-uno p {
+    font-size: 27px;
+}
+.ct-dos {
+    background: url(../image/img_grid_secundario.jpg) center center;
+    background-size: cover;
+    padding: 25% 0 ;
+    margin-bottom: 18.3px;
+    box-shadow: inset 30px -90px 100px 10px rgba(0, 0, 0, 0.5); 
+}
+.ct-dos p, .ct-tres p {
+    font-size: 18px;
+}
+.ct-tres {
+    background: url(../image/img_grid_secundario.jpg) center center;
+    background-size: cover;
+    padding: 25% 0 ;
+    box-shadow: inset 30px -90px 100px 10px rgba(0, 0, 0, 0.5); 
+}
+
+
+/* -----------------------------------------------------------------ICONOS-TITULAR------- */
+.icon-s {
+    margin: 0 0.5%;
+}
+.ico{
+	background-color: #EDEFF0 ;
+	border-radius: 5px;
+}
+.ico:hover{
+	background-color: #c7c7c7;
+	text-decoration: none;
+	color: #fff;
+}
+.icon-center {
+    margin: 0 1%;
+}
+.ico-fa{
+	box-shadow: 0px 3px 0px 0px rgba(15,47,207,1);
+	color:#0f2fcf ;
+	padding: 3px 4px 3px 9px;    
+}
+.ico-twi{
+	box-shadow:0px 3px 0px 0px rgba(16,156,207,1);
+	color: #109ccf;
+	padding: 3px 2px 3px 6px;    
+}
+.ico-goo{
+	box-shadow:0px 3px 0px 0px rgba(242,3,43,1);
+	color: #f2032b;
+	padding: 3px 4px 3px 8px;    
+}
+.ico-youtube{
+	color: red;
+}
+.punto-icon{
+	margin: 0 10px;
+} 
+/* columnistas */
+.columnista h1{
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    background-color:#ad1717;
+    color: white;
+    margin: 0 auto;
+    padding-top: 14px;
+    padding-bottom: 7px;
+    position: relative;
+    top: -15px;
+}
+.columnista hr{
+    position: relative;
+    top: 22px;
+    background-color:#ad1717;
+    padding: 3px
+}
+.columnista .img-columnistas{
+    margin: 0 auto 10px;
+    border: 6px solid white;
+}
+.columnistas .img-columnistas img {
+    border: 4px solid #fff;
+    margin: 0 auto 10px;
+}
+.cajas .titulo-columnista , .cajas .titulo-columnista:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.columnista a, .columnista a:hover {
+    color: #1f1f1f;
+    text-decoration: none;
+}
+
+.columnista .cajas{
+    background-color:rgba(233, 227, 227, 0.63);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+}
+.columnista p{
+    font-size: 12px;
+    padding-top: 4px;
+}
+.columnista h4{
+    font-size: 10px;
+}
+/* Noticias destacadas mercado */
+
+.noticias-destacadas{
+    margin-top: 20px;
+}
+.noticias-destacadas .imagen{
+    background-image: url(../image/img_especiales.jpg);
+    height: 180px;
+    background-size: cover;
+    
+}
+.noticias-destacadas .caja1{
+    margin-left: -12px;
+    border: 2px solid rgba(206, 202, 202, 0.69);
+    padding-bottom: 16px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+.noticias-destacadas .cajainterna{
+    color: white;
+    position: relative;
+    top: 120px;
+    font-size: 15px;
+    left: 15px;
+}
+.noticias-destacadas .degradado{
+    background:rgba(33, 32, 32, 0.52);
+    background: -moz-linear-gradient(bottom,rgba(25, 23, 23, 0.62), rgba(33, 32, 32, 0.52),);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(33, 32, 32, 0.05)), to(rgb(25, 23, 23)));
+    height: 180px;
+}
+.noticias-destacadas .banner{
+    background-image: url(../image/banner-aside-home.jpg);
+    background-size: cover;
+    padding-bottom: 600px;
+    margin-left: -18px
+}
+.noticias-destacadas h2{
+    font-size: 22px;
+    color: red;
+    padding-bottom: 3px;
+    margin-top: 14px;
+}
+.noticias-destacadas p{
+    position: relative;
+    top: 14px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------Section Ultimas Noticias */
+.ultimas-noticias {
+    font-family: "oswald",arial;
+    font-size: 15px;
+    color: #768596;
+}
+.doble-angulo {
+    margin-left: 5px;
+}
+.row-noticias .fecha {
+    display: block;
+    margin: 0 0 5px;
+    color: #687888;
+    font-size: 12px;
+}
+.titulo-noticias {
+    font-family:"Open Sans","Helvetica",Arial,sans-serif;
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a1a1a;
+    letter-spacing: -.06em;
+}
+.titulo-noticias a{
+    color:#1a1a1a;
+    text-decoration: none;
+}
+.img-news{
+    width: 200px;
+    height: 120px;
+    display: inline;
+    max-width: 100%;
+}
+.row-noticias {
+    padding: 15px 0 10px;
+    border-bottom: 1px solid #cdcdcd;
+    height: auto;
+    overflow: hidden;
+}
+.row-noticias .photo{
+    float: left;
+    margin: 0 10px 0 0;
+}
+.row-noticias .descripcion {
+    padding: 0;
+    font-size: 15px;
+    line-height: 130%;
+}
+.row-noticias .descripcion p {
+    color: #1a1a1a;
+}
+.row-noticias .descripcion p a {
+    color: #c33c2d;
+    text-decoration: none;
+}
+/*--------------------------------Seccion Ultimas Noticias - Redes Sociales */
+.complemento .redes{
+    display: inline-block;    
+}
+.complemento .redes ul{
+    margin:0;
+}
+.complemento .redes ul li {
+    margin-right: 5px;
+}
+.redes li {
+    display: inline-block;
+    margin-right: 0;
+}
+.complemento .redes .iconos{
+    background-color:  #E3E3E3;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 4px 6px;
+}
+.complemento .redes #icon-bg-fb{
+    border-bottom: 3px solid #1A59A0;   
+}
+.complemento .redes #icon-bg-twitter{
+    border-bottom: 3px solid #5CB0DF;   
+}
+.complemento .redes #icon-bg-google{
+    border-bottom: 3px solid #D51F1E;   
+}
+.complemento .redes .iconos .icon-facebook{
+    color: #1A59A0;
+}
+.complemento .redes .iconos .icon-twitter2{
+    color: #5CB0DF;
+}
+.complemento .redes .iconos .icon-google, .icon-youtube2{
+   color: #D51F1E;
+} 
+/*--------------------------------Seccion Ultimas Noticias - Boton Ultimas Noticias */
+.btn, .boletin .btn{
+    display: block;
+    width: 100%;
+    background: #ba1414;
+    border: 1px solid #d10d0d;
+    padding: .3em;
+    margin: 1em auto;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PT Sans',sans-serif;
+    border-radius: 3px;
+    max-width: 200px;
+    }
+
+/*---------------------------------------------------------------------- Ultimas Noticias - Boletin */
+.boletin{
+     background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2OMj483Xrhw4VlsNCMDHsBIG50AUycn9nYVATMAAAAASUVORK5CYII=
+    ) repeat;
+}
+.suscribete {
+    background-color: #FFF;
+    padding: 40px 20px 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    font-family: "PT Sans","Helvetica",Arial,sans-serif;
+    position: relative;
+    transform: translateY(-10%);
+    color: black;
+}
+.suscribete span {
+    font-weight: bold;
+}
+.img-suscribe{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+/*---------------------------------------------------------------------- Ultimas Noticias - aweita */
+.aweita {
+    margin-top: 20px;
+    border: solid #ccc 1px;
+}
+.aweita .title{
+    margin: 15px 0;
+}
+.aweita .detail h2 {
+    font: 300 15px "Open Sans","Helvetica",Arial,sans-serif;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: -.06em;
+}
+.aweita .row {
+    padding: 0 15px;
+    margin-bottom: 15px
+}
+
+/*---------------------------------------------------------------------- Ultimas Noticias - aweita - boton */
+.aweita .btn-aweita {
+    height: 33px;
+    margin: 8px 20px 0 20px;
+    text-align: center;
+}
+.aweita .btn-aweita span {
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: solid #872f85 5px;
+}
+.aweita .btn-aweita span a {
+    color: #872f85;
+} 
+.aweita .photo img {
+    border: 0;
+}
+
+/*---------------------------------------------------------------------- Ultimas Noticias - fotos destacadas */
+.fotos-destacadas {
+    padding: 0 0 1em 0;
+    margin: 0 0 30px;
+} 
+.fotos-destacadas .row{
+    margin-bottom: 15px;
+}  
+.crossing-title {
+    border-top: 4px solid #768696;
+    position: relative;
+}
+.crossing-title span {
+    display: inline-block;
+    padding: 6px 10px;
+    line-height: 1;
+    background-color: #768696;
+    color: white;
+    position: relative;
+    top: -10px;
+    text-transform: uppercase;
+    font: 500 15px "Oswald","Helvetica",Arial,sans-serif;
+}
+.crossing-title span a, .crossing-title span a:hover {
+    color: #fff;
+}
+.fotos-destacadas .row {
+    margin-bottom: 0 -10px 15px -10px;
+}
+.col-sidebar a {
+    color: #1f1f1f;
+}
+.fotos-destacadas .detail h2 {
+    font: 300 15px "Open Sans","Helvetica",Arial,sans-serif;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: -.06em;
+}
+

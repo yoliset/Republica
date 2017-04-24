@@ -1,0 +1,93 @@
+/* Inserta tu código de la página columnistas acá 
+* {
+    outline: 1px solid rgba(255,0,0,0.4);
+}
+*/
+
+.columnistas{
+	font-family: "PT Sans";
+	
+}
+.columnistas h4{
+	display: inline-block;
+}
+
+/*BOX*/
+.box{
+	padding: 5px;
+}
+
+/*BORDER-GRAY*/
+.border-gray{
+	border:2px solid #EFEFEF;
+	padding: 14% 3% 6%;
+	text-align: center;
+	margin-bottom: 2%;
+}
+.border-gray h4{
+	font-size: 1em;
+}
+.border-gray h3{
+	font-size: 1.5em;
+	margin: 14px 0 20px 0;
+}
+
+/*BOXGRAY*/
+.boxgray{
+	background-color: #EFEFEF;
+	padding: 4% 0;
+	margin: auto;
+	text-align: left;
+}
+.boxgray h5{
+	margin-top: 2px;
+	margin-bottom: 4px;
+}
+h3 a{
+	text-decoration: none !important;
+	color:black;
+}
+h5 a{
+	text-decoration: none !important;
+}
+
+#FRASE{
+
+    font-size: 15px;
+    width: 200px;
+    background-color:crimson;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#Columna{
+   margin-bottom: 30px;
+   margin-left: 10px;
+}
+#cajas3{
+    background-color:crimson;
+    padding: 18px;
+    
+}
+#cajas3 a{
+    color: white; 
+    border-radius: 13px;
+    font-size: 15px;
+    text-decoration: none;
+   transition: width 10s;
+    text-decoration:none;
+    cursor: auto;
+    padding: 12px;
+}
+#cajas3 a:hover {
+   
+    background-color:brown;
+}
+#caja6{
+    margin-left: 1px;
+}
